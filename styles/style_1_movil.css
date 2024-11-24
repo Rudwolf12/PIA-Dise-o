@@ -3,7 +3,10 @@
 @import url("colors.css");
 @import url("bootstrap.css");
 
-
+img {
+    width: auto;
+    max-height: 500px;
+}
 
 @media only screen and (max-width: 800px) {
     .menu {
