@@ -1,0 +1,109 @@
+@import "colors.css";
+
+body {
+    font-family: "Diphylleia", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    margin: auto;
+    padding: auto;
+    display: block;
+    color: var(--bs-black);
+}
+
+p, h1, h2, h3 {
+    margin: 15px;
+}
+  
+header {
+    display: flex;
+    background: var(--bs-black);
+    color: var(--bs-white);
+}
+
+footer {
+    position: absolute;
+    background-color: var(--dark5);
+    margin: auto;
+    padding: auto;
+    width: 100%;
+    color: var(--bs-white);
+}
+
+.footerMain img {
+    width: 50px;
+    margin: 5px 5px 0 5px;
+}
+
+.footerMain a{
+    text-decoration: none;
+    color: var(--bs-white);
+}
+
+.foreground {
+    margin: 0;
+  padding: 0.3rem;
+  background-color: #9a9ec66d;
+}
+
+.foreground > h1,
+.underground {
+  margin: 0.5rem;
+  padding: 0.3rem;
+  font-size: 1.2rem;
+  display: inline-block;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.underground > h2,
+.underground > p {
+  margin: 0.2rem;
+  font-size: 1rem;
+}
+
+.underground blockquote {
+    width: 250px;
+    margin: 25px;
+    border-radius: 10px;
+}
+
+table, td, th {
+    border: 2px var(--bs-black) solid;
+    padding: 20px;
+}
+
+.field {
+    margin-bottom: 10px;
+}
+
+.field #file {
+    display: none;
+}
+  
+.field label {
+    display: block;
+    float: inline;
+    color: var(--bs-black);
+    width: 100px;
+}
+  
+.field input {
+    display: block;
+    min-width: 250px;
+    line-height: 1.5;
+    font-size: 14px;
+}
+  
+input[type="submit"] {
+    display: block;
+    padding: 6px 30px;
+    font-size: 14px;
+    background-color: #4460AA;
+    color: var(--bs-white);
+    border: none
+}
+
+main div {
+    padding-bottom: 2em;
+}

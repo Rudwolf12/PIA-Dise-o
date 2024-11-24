@@ -1,0 +1,25 @@
+@import url("Style_1.css");
+@import url("Style_1_form.css");
+@import url("colors.css");
+@import url("bootstrap.css");
+
+
+
+@media only screen and (max-width: 800px) {
+    .menu {
+        display: block;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+    }
+
+    .underground blockquote {
+        width: 144px;
+    }
+    
+    .underground iframe {
+        min-width: 160px;
+        width: 260px;
+        border-radius: 10px;
+    }
+}
