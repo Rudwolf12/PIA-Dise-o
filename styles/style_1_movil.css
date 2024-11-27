@@ -1,7 +1,5 @@
 @import url("Style_1.css");
-@import url("Style_1_form.css");
 @import url("colors.css");
-@import url("bootstrap.css");
 
 img {
     width: auto;
@@ -14,6 +12,11 @@ img {
         position: absolute;
         top: 10px;
         right: 10px;
+    }
+
+    .card {
+        width: 70%; 
+        max-height: 450px;
     }
 
     .underground blockquote {

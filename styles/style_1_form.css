@@ -1,3 +1,6 @@
+@import url("colors.css");
+@import url("style_1.css");
+
 main {
     text-align: left;
 }

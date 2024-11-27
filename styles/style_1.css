@@ -14,20 +14,43 @@ body {
 p, h1, h2, h3 {
     margin: 15px;
 }
-  
-header {
-    display: flex;
-    background: var(--bs-black);
-    color: var(--bs-white);
+
+.categories a {
+    color: black;
+    text-decoration: none;
+}
+
+.categories a:hover {
+    color: var(--bs-gray);
+    text-decoration: none;
+}
+
+.categories div img {
+    width: 20vw;
+    max-width: 250px;
+}
+
+.centered {
+    margin-top: 25px;
+    margin-left: 20%;
+}
+
+.center {
+    margin-top: 2.5%;
+    margin-left: 15%;
+}
+
+.card {
+    max-width: 70%; 
+    max-height: 450px;
 }
 
 footer {
     position: absolute;
-    background-color: var(--dark5);
     margin: auto;
     padding: auto;
     width: 100%;
-    color: var(--bs-white);
+    color: var(--bs-gray);
 }
 
 .footerMain img {
@@ -37,13 +60,12 @@ footer {
 
 .footerMain a{
     text-decoration: none;
-    color: var(--bs-white);
 }
 
 .foreground {
     margin: 0;
-  padding: 0.3rem;
-  background-color: #9a9ec66d;
+    padding: 0.3rem;
+    background-color: #9a9ec66d;
 }
 
 .foreground > h1,
